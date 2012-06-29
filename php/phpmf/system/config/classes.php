@@ -1,0 +1,36 @@
+<?php
+
+return array(
+    'KApplication'=>'system.base.KApplication',
+    'KWebApplication'=>'system.app.KWebApplication',
+    'KApplicationManager'=>'system.base.KApplicationManager',
+    'KHtmlManager'=>'system.app.KHtmlManager',
+    'KDatabaseManager'=>'system.db.KDatabaseManager',
+    'KAssetsManager'=>'system.app.KAssetsManager',
+    'ISingleton'=>'system.base.ISingleton',
+    'KCache'=>'system.cache.KCache',
+    'KView'=>'system.mvc.KView',
+    'KDecorator'=>'system.mvc.KDecorator',
+    'KClip'=>'system.web.KClip',
+    'KPaneCollection'=>'system.web.KPaneCollection',
+    'KTabs'=>'system.web.tabs.KTabs',
+    'KAccordion'=>'system.web.accordion.KAccordion',
+    'KClipPane'=>'system.web.KClipPane',
+    'KViewPane'=>'system.web.KViewPane',
+    'KPane'=>'system.web.KPane',
+    'KDependencies'=>'system.helper.KDependencies',
+    'KCounter'=>'system.helper.KCounter',
+    'KHttpRequest'=>'system.app.KHttpRequest',
+    'KDatabaseManager'=>'system.app.KDatabaseManager',
+    'KDbConnection'=>'system.db.KDbConnection',
+    'KDbIntrospect'=>'system.db.KDbIntrospect',
+    'KDbQuery'=>'system.db.sql.KDbQuery',
+    'KSqlTableOperation'=>'system.db.sql.KSqlTableOperation',
+    'KSqlSelect'=>'system.db.sql.KSqlSelect',
+    'KSqlUpdate'=>'system.db.sql.KSqlUpdate',
+    'KSqlInsert'=>'system.db.sql.KSqlInsert',
+    'KSqlDelete'=>'system.db.sql.KSqlDelete',
+    'KSqlCondition'=>'system.db.sql.KSqlCondition',
+);
+
+?>

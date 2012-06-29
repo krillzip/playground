@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/krillzip/phpmyframework/svn/!svn/ver/2/phpmf/system/base
+END
+KApplicationManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/krillzip/phpmyframework/svn/!svn/ver/2/phpmf/system/base/KApplicationManager.php
+END
+KSingleton.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/krillzip/phpmyframework/svn/!svn/ver/2/phpmf/system/base/KSingleton.php
+END
+KApplication.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/krillzip/phpmyframework/svn/!svn/ver/2/phpmf/system/base/KApplication.php
+END
+KObject.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/krillzip/phpmyframework/svn/!svn/ver/2/phpmf/system/base/KObject.php
+END
+KConfiguration.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/krillzip/phpmyframework/svn/!svn/ver/2/phpmf/system/base/KConfiguration.php
+END
+System.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/krillzip/phpmyframework/svn/!svn/ver/2/phpmf/system/base/System.php
+END

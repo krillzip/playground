@@ -1,0 +1,43 @@
+
+==== Release 1.0RC1 ====
+This is a release candidate for the 1.0 release, it is based on v0.7 with some performance improvements, bug fixes, and clean up
+- Switched to phpunit for unit testing
+- Fixed a lot (i think all of them) of E_STRICT notices
+- Added NesteSetBrowser as a utility to help implementations of nested sets (modified preorder tree traversal)
+- Added a lot more source comments
+- Fixed a bunch of small bugs
+
+==== Release 0.7 ====
+- One-to-one and many-to-many relationships
+- PHP-5.2's DateTime support
+- Fluent-interface query API
+- Eager-fetching (for many-to-one and one-to-one relationships)
+- PostgreSQL support
+- Support for using getters and setters instead of public properties for entity attributes
+
+==== Release 0.6 ====
+- Improved connections to SQL Server using both the odbc and dblib driver
+- Fixed a number of bugs when using strings as primary key
+- Fixed other minor bugs
+
+==== Release 0.5 ====
+- Fixed a bug with Outlet->delete (another one)
+
+==== Release 0.4 ====
+- Fixed a bug with one-to-many relationships
+
+==== Release 0.3 ====
+- Fixed a bug with Outlet->delete
+
+==== Release 0.2 ====
+- Better error handling 
+- More config options: plural names, default values, default expressions, etc
+- Refactored the config system
+- Fixed a few bugs
+
+==== Release 0.1 ====
+- Support for SQLite and MySQL
+- One-to-many and Many-to-one relationships
+- Single-field primary keys
+
+Enjoy!

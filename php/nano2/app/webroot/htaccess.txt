@@ -1,0 +1,19 @@
+DirectoryIndex index.php
+
+#SSLRequireSSL
+
+# Enable rewrite engine
+Options +FollowSymLinks
+RewriteEngine On
+
+# Making the www version the standard one
+#RewriteCond %{HTTP_HOST} ^http://127.0.0.1/ [NC]
+#RewriteRule ^(.*)$ http://localhost/$1 [L,R=301]
+
+# Direct access to /images/* and other directories, but hot-link protected.
+RewriteCond %{HTTP_REFERER} ^http://localhost/.*$
+RewriteCond %{REQUEST_URI} ^(/images/|/css/|/js/)(.*)$
+RewriteRule ^(.+) - [L]
+
+# Everything is rewrited to the index.php
+RewriteRule !^index\.php$ /index.php [L]

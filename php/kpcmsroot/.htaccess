@@ -1,0 +1,6 @@
+#DirectoryIndex index.php
+
+#Options +FollowSymLinks
+#RewriteEngine On
+
+#RewriteRule !^index\.php$ kpcms/index.php [L]

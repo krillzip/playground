@@ -1,0 +1,51 @@
+/* 
+    Document   : kaccordion.css
+    Created on : 2009-apr-15, 20:35:19
+    Author     : krillzip
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+/*
+    Document   : ktabs
+    Created on : 2009-apr-09, 20:02:37
+    Author     : krillzip
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+ul.kAccordionContainer
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+/*.kAccordionContainer li div.kAccordionPane
+{
+    display: none;
+}*/
+li.kAccordionFlap a
+{
+    display: block;
+    padding: 5px 10px;
+    border-border: 1px solid gray;
+}
+li.kAccordionFlap a.active
+{
+    background: orange;
+}
+
+.kAccordionPane
+{
+    background: yellow;
+}

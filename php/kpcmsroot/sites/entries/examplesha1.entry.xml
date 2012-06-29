@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<kpcms>
+	<urlentry>
+		<url>/members/login.html</url> /* The path (absolute) of the uri. */
+		<type>resource</type> /* Type of resource, [ resource | redirect | gone ]. */
+		<resource> /* If the type is "resource", then should contain all this stuff. */
+			<base>/members</base> /* If this resource was derivied from an instance of an component that is recursive, then this fields tells the base absolute path of that instance. */
+			<allowed>/* Methods allowed to use on this resource. */
+				<method>POST</method>
+				<method>GET</method>
+				<method>HEAD</method>
+			</allowed>
+			<translations> /* The resource is available in the following translations. */
+				<language>en</language>
+				<language>sv</language>
+			</translations>
+			<cached>no-cache</cached> /* Unix timestamp of the time of the server cache, if exists. [ timespamp | no-cache ] */
+			<created></created> /* Unix timestamp for creation. */
+			<modified></modified> /* Unix timestamp for last modified. */
+			<expires></expires> /* [ timestamp | expired | never ] */
+			<protect>no</protect> /* If the resource should be cached on transimtion. [ yes | no ] */
+			<ssl>no</ssl> /* If Secure Socket Layer should be used. [ yes | no ] */
+			<access>public</access> /* If the resource is public or login is required, if so run database. [ public | restricted ]*/
+			<component> /* The component that manages this resource. */
+				<name>mycomponent_comp</name> /* The id string of the installed component. */
+				<instance>234234</instance> /* Instance of the component. */
+				<recursive>no</recursive> /* If this instance generates resources in this path, this instance is recursive. [ yes | no ] */
+				<params> /* Parameters to the component for this resource. */
+					<param> /* A parameter. */
+						<key>a</key> /* Name of the parameter. */
+						<value>4543</value> /*Value of the parameter. */
+					</param>
+					<param>
+						<key>b</key>
+						<value>name</value>
+					</param>
+				</params>
+			</component>
+		</resource>
+		<redirect>/members/signup.html</redirect> /* If the type is "redirect", then should contain a absolute url. */
+	</urlentry>
+</kpcms>

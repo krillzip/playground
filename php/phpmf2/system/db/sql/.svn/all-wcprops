@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/krillzip/phpmyframework/svn/!svn/ver/2/phpmf/system/db/sql
+END
+KSqlJoin.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/krillzip/phpmyframework/svn/!svn/ver/2/phpmf/system/db/sql/KSqlJoin.php
+END
+KSqlSelect.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/krillzip/phpmyframework/svn/!svn/ver/2/phpmf/system/db/sql/KSqlSelect.php
+END
+KSqlDelete.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/krillzip/phpmyframework/svn/!svn/ver/2/phpmf/system/db/sql/KSqlDelete.php
+END
+KSqlUpdate.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/krillzip/phpmyframework/svn/!svn/ver/2/phpmf/system/db/sql/KSqlUpdate.php
+END
+KSqlInsert.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/krillzip/phpmyframework/svn/!svn/ver/2/phpmf/system/db/sql/KSqlInsert.php
+END
+KSqlCondition.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/krillzip/phpmyframework/svn/!svn/ver/2/phpmf/system/db/sql/KSqlCondition.php
+END
+KSqlTableOperation.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/krillzip/phpmyframework/svn/!svn/ver/2/phpmf/system/db/sql/KSqlTableOperation.php
+END
+KDbQuery.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/krillzip/phpmyframework/svn/!svn/ver/2/phpmf/system/db/sql/KDbQuery.php
+END
