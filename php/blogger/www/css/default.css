@@ -1,0 +1,64 @@
+/* 
+    Document   : default
+    Created on : 2012-feb-06, 09:38:14
+    Author     : krillzip
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body {
+    background-color: #f8f8f8;
+    background: -webkit-gradient(radial, center center, 0, center center, 460, from(#fcfcfc), to(#e0e0e0)); 
+    background: -webkit-radial-gradient(circle, #fcfcfc, #e0e0e0);
+    background: -moz-radial-gradient(circle, #fcfcfc, #e0e0e0);
+    background: -ms-radial-gradient(circle, #fcfcfc, #e0e0e0);
+}
+
+div.wrapper{
+    width: 960px;
+    margin: 0px auto;
+}
+
+header.main hgroup{
+    height: 100px;
+    margin: 2em 0;
+    padding: 1.5em;
+    background-color: #d0d0d0;
+
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e0e0e0), to(#f0f0f0)); 
+    background: -webkit-linear-gradient(top, #e0e0e0, #f0f0f0); 
+    background: -moz-linear-gradient(top, #e0e0e0, #f0f0f0); 
+    background: -ms-linear-gradient(top, #e0e0e0, #f0f0f0); 
+    background: -o-linear-gradient(top, #e0e0e0, #f0f0f0);
+}
+
+.rounded{
+    border-radius: 1.5em;
+}
+
+.shadow{
+    -moz-box-shadow: 1px 2px 2px 2px #e0e0e0;
+    -webkit-box-shadow: 1px 2px 2px 2px #e0e0e0;
+    box-shadow: 1px 2px 2px 2px #e0e0e0;   
+}
+
+header.main nav{
+    background-color: #ff4040;
+
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e0e0e0), to(#f0f0f0)); 
+    background: -webkit-linear-gradient(top, #e0e0e0, #f0f0f0); 
+    background: -moz-linear-gradient(top, #e0e0e0, #f0f0f0); 
+    background: -ms-linear-gradient(top, #e0e0e0, #f0f0f0); 
+    background: -o-linear-gradient(top, #e0e0e0, #f0f0f0);
+}
+
+header.main nav ul{margin: 2em 0; padding: .6em 1.1em; list-style-type: none;}
+header.main nav li{float: left; padding: 1em;}
+
+section.bodyWrapper{float: left; width: 520px;}
+aside.sideWrapper{float: left; width: 200px; margin-left: 19px;}
+aside.side2Wrapper{float: left; width: 200px; margin-left: 19px;}
+
+.clearfix:after, .container:after {content:"\0020";display:block;height:0;clear:both;visibility:hidden;overflow:hidden;}
+.clearfix, .container {display:block;}
+.clear {clear:both;}
